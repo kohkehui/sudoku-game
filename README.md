@@ -24,6 +24,7 @@ java sudoku.SudokuMain
 ```
 
 ## 🛠️ Project Structure
+```
 sudoku-game/
 ├── src/
 │   └── sudoku/
@@ -41,9 +42,9 @@ sudoku-game/
 │   └── dark-mode.png
 ├── README.md
 └── .gitignore
+```
 
 ## 📸 Screenshots
-## Screenshots
 
 | Light Mode | Dark Mode |
 |------------|-----------|
