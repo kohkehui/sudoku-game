@@ -24,17 +24,23 @@ java sudoku.SudokuMain
 ```
 
 ## 🛠️ Project Structure
-src/
-└── sudoku/
-├── Cell.java # Custom cell UI/UX
-├── GameBoardPanel.java # Main game logic
-├── Puzzle.java # Puzzle generator
-├── SoundEffects.java # Audio manager
-└── ...
-sounds/
-├── correct.wav
-├── won.wav
-└── wrong.wav
+sudoku-game/
+├── src/
+│ └── sudoku/
+│ ├── Cell.java # Custom cell UI/UX
+│ ├── GameBoardPanel.java # Main game logic
+│ ├── Puzzle.java # Puzzle generator
+│ ├── SoundEffects.java # Audio manager
+│ └── SudokuMain.java # Entry point / Main class
+├── sounds/
+│ ├── correct.wav
+│ ├── won.wav
+│ └── wrong.wav
+├── images/
+│ ├── light-mode.png
+│ └── dark-mode.png
+├── README.md
+└── .gitignore
 
 ## 📸 Screenshots
 ## Screenshots
@@ -45,7 +51,7 @@ sounds/
 
 ## Contributors
 - [Ke Hui](https://github.com/kohkehui)
-- [Nasuhah](https://github.com/nasuhah)
+- [Nasuhah](fatimahn001@e.ntu.edu.sg)
 
 ## License
 MIT © 2023 [Ke Hui]
